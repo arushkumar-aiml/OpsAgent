@@ -1,177 +1,156 @@
-⚡ OpsAgent — AI DevOps Copilot
+⚡ OpsAgent
 
-«Built in 48 Hours on an Android Phone for Microsoft Build AI Dashboard Hackathon 2025»
+«AI-Native DevOps Copilot built in 48 hours on an Android phone for Microsoft Build AI Dashboard Hackathon 2025.»
 
-"OpsAgent Banner" (https://img.shields.io/badge/Built%20With-Next.js-black?style=for-the-badge&logo=next.js)
-"AI Powered" (https://img.shields.io/badge/AI-LLaMA%203.1-blueviolet?style=for-the-badge)
-"Hackathon" (https://img.shields.io/badge/Microsoft-Build%20AI%20Hackathon-0078D4?style=for-the-badge&logo=microsoft)
-"Status" (https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Groq-LLaMA%203.1-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" />
+</p>---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 Live Demo
 
-🚀 What is OpsAgent?
-
-OpsAgent is an AI-native DevOps productivity platform built for modern engineering teams.
-
-Instead of switching between multiple tools for sprint planning, PR reviews, meeting summaries, debugging logs, and DevOps commands — OpsAgent combines everything into one beautiful AI-powered dashboard.
-
-Built with:
-
-- ⚡ Next.js 16
-- 🧠 LLaMA 3.1 via Groq API
-- 🎨 TailwindCSS + Framer Motion
-- ☁️ Vercel Serverless Deployment
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🌟 Features
-
-🎙️ Meeting Analyzer
-
-Paste meeting transcripts and instantly get:
-
-- Decisions
-- Action Items
-- Blockers
-- Structured Summaries
-
-Example
-
-Input:
-"Arush will deploy the API tomorrow..."
-
-Output:
-✅ Action Items
-✅ Key Decisions
-✅ Risks & Blockers
-
----
-
-⚡ Sprint Planner
-
-Generate full sprint plans using AI.
-
-Includes:
-
-- Epics
-- User Stories
-- Story Points
-- Daily Tasks
-- Sprint Goals
-
-Perfect for Agile teams.
-
----
-
-🔍 AI PR Reviewer
-
-Paste any git diff and get:
-
-- Code Review
-- Security Analysis
-- Performance Suggestions
-- Bug Detection
-- Quality Score
-
-Example
-
-- const password = "123456"
-+ const password = process.env.PASSWORD
-
-AI instantly flags security issues.
-
----
-
-🚨 Incident Explainer
-
-Convert complex error logs into plain English.
-
-Features
-
-- Root Cause Analysis
-- Fix Suggestions
-- Prevention Tips
-- Production Incident Help
-
-Built for late-night debugging emergencies 🔥
-
----
-
-💻 Natural Language DevOps
-
-Ask DevOps questions in plain English.
-
-Example
-
-restart nginx without downtime
-
-Output
-
-sudo nginx -s reload
-
-With explanation + warnings.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🛠️ Tech Stack
-
-Category| Technology
-Frontend| Next.js 16
-Language| TypeScript
-Styling| TailwindCSS
-Animations| Framer Motion
-AI Engine| Groq API
-Model| LLaMA 3.1 8B Instant
-Backend| Next.js API Routes
-Hosting| Vercel
-Dev Environment| Android + Termux
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📱 Built Entirely on Android
-
-Yes. Seriously.
-
-This entire project was:
-
-- coded on an Android phone 📱
-- built using Termux
-- deployed without a laptop
-- powered by AI-assisted development
-
-No MacBook.
-No expensive setup.
-Just engineering + hustle.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-⚡ Live Demo
-
-🔴 Live Website
+🔴 Live App
 https://ops-agent-roan.vercel.app
 
 📦 GitHub Repository
 https://github.com/arushkumar-aiml/OpsAgent
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-🧠 AI Architecture
+🧠 About OpsAgent
 
-User Input
-   ↓
-Next.js Frontend
-   ↓
-API Routes
-   ↓
-Groq API
-   ↓
-LLaMA 3.1
-   ↓
-Structured AI Response
+OpsAgent is an AI-powered DevOps productivity dashboard designed for engineering teams.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Instead of switching between multiple tools for:
 
-📂 Folder Structure
+- PR reviews
+- Sprint planning
+- Meeting summaries
+- Incident debugging
+- DevOps commands
+
+OpsAgent combines everything into one AI-native workspace powered by LLaMA 3.1.
+
+---
+
+✨ Features
+
+🎙️ Meeting Analyzer
+
+Convert raw meeting transcripts into:
+
+- Action Items
+- Decisions
+- Risks
+- Summaries
+
+---
+
+⚡ Sprint Planner
+
+Generate complete sprint plans with:
+
+- Epics
+- User stories
+- Story points
+- Daily breakdowns
+
+---
+
+🔍 AI PR Reviewer
+
+Paste a git diff and instantly get:
+
+- Code review
+- Security analysis
+- Performance suggestions
+- Quality scoring
+
+---
+
+🚨 Incident Explainer
+
+Transform complex logs into:
+
+- Root cause analysis
+- Human-readable explanations
+- Fix recommendations
+- Prevention steps
+
+---
+
+💻 Natural Language DevOps
+
+Ask questions like:
+
+restart nginx without downtime
+
+Get:
+
+sudo nginx -s reload
+
+With explanations and warnings.
+
+---
+
+🛠️ Tech Stack
+
+Frontend| Backend| AI| Deployment
+Next.js 16| API Routes| Groq API| Vercel
+TypeScript| Serverless| LLaMA 3.1| Free Tier
+TailwindCSS| Node.js| AI Agents| Global CDN
+Framer Motion| REST APIs| Prompt Engineering| Edge Deploy
+
+---
+
+📱 Built Entirely on Android
+
+This project was developed completely on an Android phone using Termux.
+
+No laptop.
+No cloud IDE.
+No expensive hardware.
+
+Just:
+
+- Android
+- Node.js
+- AI tools
+- Pure hustle ⚡
+
+---
+
+⚙️ Getting Started
+
+1. Clone Repository
+
+git clone https://github.com/arushkumar-aiml/OpsAgent.git
+
+2. Install Dependencies
+
+npm install
+
+3. Setup Environment Variables
+
+Create ".env.local"
+
+GROQ_API_KEY=your_groq_api_key
+
+---
+
+4. Run Development Server
+
+npm run dev
+
+Open:
+
+http://localhost:3000
+
+---
+
+📂 Project Structure
 
 OpsAgent/
 │
@@ -186,50 +165,25 @@ OpsAgent/
 ├── types/
 │
 ├── package.json
-├── tailwind.config.ts
 └── README.md
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-⚙️ Installation
+🧩 AI Workflow
 
-1️⃣ Clone Repository
+User Input
+    ↓
+Next.js Dashboard
+    ↓
+API Routes
+    ↓
+Groq API
+    ↓
+LLaMA 3.1
+    ↓
+Structured AI Response
 
-git clone https://github.com/arushkumar-aiml/OpsAgent.git
-
-2️⃣ Open Project
-
-cd OpsAgent
-
-3️⃣ Install Dependencies
-
-npm install
-
-4️⃣ Add Environment Variables
-
-Create ".env.local"
-
-GROQ_API_KEY=your_api_key_here
-
-5️⃣ Start Development Server
-
-npm run dev
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔥 Why OpsAgent?
-
-Engineering teams lose hours daily because of:
-
-- Manual documentation
-- Slow PR reviews
-- DevOps confusion
-- Incident debugging
-- Tool switching
-
-OpsAgent solves all of it using AI.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
 👥 Team Warriors
 
@@ -237,10 +191,9 @@ OpsAgent solves all of it using AI.
 
 - Full Stack Development
 - AI Integration
-- Backend Architecture
-- API Engineering
+- Backend Engineering
 
-GitHub: @arushkumar-aiml
+GitHub: "@arushkumar-aiml"
 
 ---
 
@@ -248,46 +201,36 @@ GitHub: @arushkumar-aiml
 
 - UI/UX Design
 - Frontend Engineering
-- Motion Design
-- Dashboard Experience
+- Motion & Visual Design
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-🏆 Hackathon Submission
+🏆 Hackathon
 
 Built for:
 
 Microsoft Build AI Dashboard Hackathon 2025
 
-Theme:
+---
 
-«AI-Native Productivity & Engineering Tools»
+🔥 Future Roadmap
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🌍 Future Plans
-
-- Multi-Agent AI Orchestration
-- Slack / Discord Integration
-- GitHub App Integration
+- GitHub Integration
+- Slack Bot
 - Kubernetes Monitoring
 - AI Deployment Pipelines
-- Team Collaboration Features
+- Team Collaboration
+- Multi-Agent Orchestration
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
 🤝 Contributing
 
 Pull requests are welcome.
 
-If you'd like to improve OpsAgent:
+Fork → Clone → Build → PR 🚀
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a PR 🚀
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
 ⭐ Support
 
@@ -295,22 +238,16 @@ If you liked this project:
 
 - ⭐ Star the repository
 - 🍴 Fork the project
-- 📢 Share it with developers
+- 📢 Share with developers
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
 📜 License
 
 MIT License © 2025 Team Warriors
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-💥 Final Note
-
-«48 Hours.
-One Android Phone.
-Two Engineers.
-Five AI Agents.
-Infinite Possibilities.»
-
-Welcome to the future of AI-native engineering ⚡
+<p align="center">
+  <b>48 Hours • One Phone • Two Engineers • Five AI Agents ⚡</b>
+</p>

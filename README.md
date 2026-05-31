@@ -1,253 +1,436 @@
-⚡ OpsAgent
+# ⚡ OpsAgent
 
-«AI-Native DevOps Copilot built in 48 hours on an Android phone for Microsoft Build AI Dashboard Hackathon 2025.»
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" />
-  <img src="https://img.shields.io/badge/Groq-LLaMA%203.1-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" />
-</p>---
+### AI-Native DevOps Copilot for Engineering Teams
 
-🚀 Live Demo
+Built in **48 Hours** on an **Android Phone** for the  
+🏆 **Microsoft Build AI Dashboard Hackathon 2025**
 
-🔴 Live App
-https://ops-agent-roan.vercel.app
+<br/>
 
-📦 GitHub Repository
-https://github.com/arushkumar-aiml/OpsAgent
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Groq](https://img.shields.io/badge/Groq-LLaMA%203.1-orange?style=for-the-badge)](https://groq.com/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
 
----
-
-🧠 About OpsAgent
-
-OpsAgent is an AI-powered DevOps productivity dashboard designed for engineering teams.
-
-Instead of switching between multiple tools for:
-
-- PR reviews
-- Sprint planning
-- Meeting summaries
-- Incident debugging
-- DevOps commands
-
-OpsAgent combines everything into one AI-native workspace powered by LLaMA 3.1.
+</div>
 
 ---
 
-✨ Features
+## 📖 Overview
 
-🎙️ Meeting Analyzer
+OpsAgent is an AI-powered DevOps productivity platform that helps engineering teams automate repetitive workflows using intelligent AI agents.
 
-Convert raw meeting transcripts into:
+Modern teams waste hours every day:
+- Writing meeting notes manually
+- Waiting for pull request reviews
+- Debugging production issues
+- Searching DevOps commands
+- Planning sprints
 
-- Action Items
+OpsAgent solves this using **5 AI Agents** inside one modern dashboard.
+
+---
+
+# ✨ Core Features
+
+## 🎙️ Meeting Analyzer
+
+Transform messy meeting transcripts into structured outputs instantly.
+
+### ✅ Extracts:
 - Decisions
+- Action Items
+- Owners
 - Risks
-- Summaries
+- Blockers
+- Executive Summary
+
+### ⚡ Example
+
+#### Input
+
+```txt
+Arush will deploy the backend tomorrow.
+Ayushi will redesign the dashboard cards.
+The authentication issue is still unresolved.
+```
+
+#### Output
+
+```txt
+✅ Action Items
+- Arush → Deploy backend
+- Ayushi → Redesign dashboard
+
+⚠️ Blockers
+- Authentication issue unresolved
+```
 
 ---
 
-⚡ Sprint Planner
+## ⚡ Smart Sprint Planner
 
-Generate complete sprint plans with:
+Generate a complete sprint roadmap in seconds.
 
+### ✅ AI Generates:
 - Epics
-- User stories
-- Story points
-- Daily breakdowns
+- User Stories
+- Story Points
+- Task Breakdown
+- Daily Planning
+- Sprint Goals
+
+### ⚡ Example
+
+#### Input
+
+```txt
+Build authentication module in 7 days with 3 developers
+```
+
+#### Output
+
+```txt
+Epic: User Authentication
+
+Stories:
+- Login API
+- JWT Middleware
+- Password Reset
+- OAuth Integration
+```
 
 ---
 
-🔍 AI PR Reviewer
+## 🔍 AI Pull Request Reviewer
 
-Paste a git diff and instantly get:
+Paste any git diff and receive a senior-level code review instantly.
 
-- Code review
-- Security analysis
-- Performance suggestions
-- Quality scoring
+### ✅ Detects:
+- Bugs
+- Security Issues
+- Bad Practices
+- Performance Problems
+- Code Smells
+
+### ⚡ Example
+
+#### Git Diff
+
+```diff
+- const password = "123456";
++ const password = process.env.PASSWORD;
+```
+
+### 🤖 AI Review
+
+```txt
+Security improved:
+Environment variables are safer than hardcoded secrets.
+```
 
 ---
 
-🚨 Incident Explainer
+## 🚨 Incident Explainer
 
-Transform complex logs into:
+Convert production error logs into plain English.
 
-- Root cause analysis
-- Human-readable explanations
-- Fix recommendations
-- Prevention steps
+### ✅ Provides:
+- Root Cause Analysis
+- Human-Friendly Explanation
+- Immediate Fix
+- Prevention Tips
+
+### ⚡ Example
+
+#### Input
+
+```bash
+502 Bad Gateway nginx
+```
+
+#### Output
+
+```txt
+The backend server is not responding to nginx.
+
+Possible Causes:
+- Crashed Node.js process
+- Port mismatch
+- High server load
+```
 
 ---
 
-💻 Natural Language DevOps
+## 💻 Natural Language DevOps
 
-Ask questions like:
+Ask DevOps questions like chatting with an engineer.
 
+### ⚡ Example
+
+#### Input
+
+```txt
 restart nginx without downtime
+```
 
-Get:
+#### Output
 
+```bash
 sudo nginx -s reload
+```
 
-With explanations and warnings.
-
----
-
-🛠️ Tech Stack
-
-Frontend| Backend| AI| Deployment
-Next.js 16| API Routes| Groq API| Vercel
-TypeScript| Serverless| LLaMA 3.1| Free Tier
-TailwindCSS| Node.js| AI Agents| Global CDN
-Framer Motion| REST APIs| Prompt Engineering| Edge Deploy
+### ✅ Includes:
+- Explanation
+- Warnings
+- Best Practices
 
 ---
 
-📱 Built Entirely on Android
+# 🧠 AI Architecture
 
-This project was developed completely on an Android phone using Termux.
-
-No laptop.
-No cloud IDE.
-No expensive hardware.
-
-Just:
-
-- Android
-- Node.js
-- AI tools
-- Pure hustle ⚡
-
----
-
-⚙️ Getting Started
-
-1. Clone Repository
-
-git clone https://github.com/arushkumar-aiml/OpsAgent.git
-
-2. Install Dependencies
-
-npm install
-
-3. Setup Environment Variables
-
-Create ".env.local"
-
-GROQ_API_KEY=your_groq_api_key
+```txt
+┌──────────────────────┐
+│   Next.js Frontend   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│  API Route Handlers  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│      Groq API        │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│   LLaMA 3.1 Model    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Structured Responses │
+└──────────────────────┘
+```
 
 ---
 
-4. Run Development Server
+# 🛠️ Tech Stack
 
-npm run dev
-
-Open:
-
-http://localhost:3000
+| Category | Technology |
+|----------|-------------|
+| Framework | Next.js 16 |
+| Language | TypeScript |
+| Styling | TailwindCSS |
+| Animation | Framer Motion |
+| AI Provider | Groq API |
+| LLM Model | LLaMA 3.1 8B Instant |
+| Backend | Next.js API Routes |
+| Hosting | Vercel |
+| Development | Android + Termux |
 
 ---
 
-📂 Project Structure
+# 📂 Folder Structure
 
+```bash
 OpsAgent/
 │
 ├── app/
 │   ├── api/
+│   │   ├── meeting/
+│   │   ├── sprint/
+│   │   ├── pr-review/
+│   │   ├── incident/
+│   │   └── devops/
+│   │
 │   ├── dashboard/
-│   └── components/
+│   ├── components/
+│   └── globals.css
 │
 ├── public/
-├── styles/
 ├── utils/
 ├── types/
+├── lib/
 │
 ├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
 └── README.md
+```
 
 ---
 
-🧩 AI Workflow
+# ⚙️ Local Development Setup
 
-User Input
-    ↓
-Next.js Dashboard
-    ↓
-API Routes
-    ↓
-Groq API
-    ↓
-LLaMA 3.1
-    ↓
-Structured AI Response
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/arushkumar-aiml/OpsAgent.git
+```
+
+## 2️⃣ Move Into Project
+
+```bash
+cd OpsAgent
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Configure Environment Variables
+
+Create a `.env.local` file.
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+## 5️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```txt
+http://localhost:3000
+```
 
 ---
 
-👥 Team Warriors
+# 🌐 Deployment
 
-👨‍💻 Arush Kumar
+OpsAgent is deployed on **Vercel Free Tier**.
 
-- Full Stack Development
+### Deploy Yourself
+
+```bash
+npm run build
+```
+
+---
+
+# 📱 Built Entirely on Android
+
+This project was developed completely using:
+- Android Phone
+- Termux
+- Node.js
+- Git
+- AI Pair Programming
+
+No laptop was used during development.
+
+---
+
+# 👥 Team Warriors
+
+## 👨‍💻 Arush Kumar
+### Full Stack + AI Integration
+
+#### Responsibilities
+- Backend Development
 - AI Integration
-- Backend Engineering
+- API Engineering
+- Prompt Engineering
+- Deployment
 
-GitHub: "@arushkumar-aiml"
-
----
-
-🎨 Ayushi Shukla
-
-- UI/UX Design
-- Frontend Engineering
-- Motion & Visual Design
+GitHub:
+`@arushkumar-aiml`
 
 ---
 
-🏆 Hackathon
+## 🎨 Ayushi Shukla
+### Frontend + UI/UX Engineering
 
-Built for:
-
-Microsoft Build AI Dashboard Hackathon 2025
+#### Responsibilities
+- Dashboard Design
+- UI Components
+- Animations
+- Glassmorphism Styling
+- Responsive Design
 
 ---
 
-🔥 Future Roadmap
+# 🏆 Hackathon Submission
 
-- GitHub Integration
-- Slack Bot
+### Microsoft Build AI Dashboard Hackathon 2025
+
+Theme:
+> AI-Native Productivity & Engineering Tools
+
+---
+
+# 🚀 Future Improvements
+
+- GitHub OAuth
+- Slack Integration
 - Kubernetes Monitoring
-- AI Deployment Pipelines
-- Team Collaboration
-- Multi-Agent Orchestration
+- AI Agent Collaboration
+- Team Workspaces
+- Real-Time Notifications
+- Docker Support
+- CI/CD Automation
 
 ---
 
-🤝 Contributing
+# 🤝 Contributing
 
-Pull requests are welcome.
+Contributions are welcome.
 
-Fork → Clone → Build → PR 🚀
+## Steps
+
+```bash
+# Fork Repository
+
+# Clone Fork
+git clone your-fork-url
+
+# Create Branch
+git checkout -b feature-name
+
+# Commit Changes
+git commit -m "Added new feature"
+
+# Push Branch
+git push origin feature-name
+```
+
+Then open a Pull Request 🚀
 
 ---
 
-⭐ Support
+# 📄 License
 
-If you liked this project:
+Licensed under the MIT License.
+
+---
+
+# ⭐ Support the Project
+
+If you found OpsAgent useful:
 
 - ⭐ Star the repository
 - 🍴 Fork the project
-- 📢 Share with developers
+- 🧠 Share with developers
+- 🚀 Build something awesome
 
 ---
 
-📜 License
+<div align="center">
 
-MIT License © 2025 Team Warriors
+## ⚡ 48 Hours • One Phone • Two Engineers • Five AI Agents
 
----
+### Built with passion, hustle, and AI.
 
-<p align="center">
-  <b>48 Hours • One Phone • Two Engineers • Five AI Agents ⚡</b>
-</p>
+</div>
